@@ -2,7 +2,7 @@ import numpy as np
 
 arr = np.arange(0, 11)
 
-hundred = 1 / arr # Also * - + and so on
+hundred = 1 / arr  # Also * - + and so on
 
 for i in arr:
     print(i)
