@@ -9,6 +9,7 @@ df = pd.DataFrame(randn(5, 4), ['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
 
 print(df)
 
+# Conditional selection
 print(df['W'])  # preferably
 print(type(df['W']))
 print(type(df))
